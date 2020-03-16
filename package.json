@@ -2,7 +2,7 @@
   "fitbit": {
     "appUUID": "0ba1d824-e665-4f49-abc1-5bb389b06508",
     "appType": "clockface",
-    "appDisplayName": "sbrClock01b",
+    "appDisplayName": "Clarity-01 1.0.2",
     "iconFile": "resources/icon.png",
     "wipeColor": "",
     "requestedPermissions": [
@@ -14,7 +14,7 @@
     ],
     "i18n": {
       "en": {
-        "name": "sbrClock01b"
+        "name": "Clarity-01 1.0.2"
       }
     },
     "defaultLanguage": "en-US"

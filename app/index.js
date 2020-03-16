@@ -39,7 +39,17 @@ clock.ontick = (evt) => {
   document.getElementById("mon3").text = month.slice(2,3);
   
   document.getElementById("steps").text = today.adjusted.steps;
-  document.getElementById("distance").text = today.adjusted.distance*0.00062137;
+  
+  const distan = (today.adjusted.distance*0.00062137).toString()
+  const distslice = distan.slice(1,2)
+  
+  if (distslice == ".") {
+    document.getElementById("distance").text = distan.slice(0,3)
+  } else {
+    document.getElementById("distance").text = distan.slice(0,2)
+  }
+  
+  console.log(`distance is: ` + document.getElementById("distance").text)
   
   if (battery.chargeLevel > 66) {
     document.getElementById("timeColon1").style.fill = "lime";

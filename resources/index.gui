@@ -17,18 +17,18 @@
   <text id="h2" class="time"/>
   <text id="m1" class="time"/>
   <text id="m2" class="time"/>
-  <text id="timeColon1" class="time sep">:</text>
+  <text id="timeColon1" class="time">:</text>
   
   <text id="day1" class="date"/>
   <text id="day2" class="date"/>
   <text id="day3" class="date"/>
   
-  <text id="dash1" class="date sep" text-buffer="|"/>
+  <text id="dash1" class="date sep" text-buffer="-"/>
   
   <text id="md1" class="date"/>
   <text id="md2" class="date"/>
   
-  <text id="dash2" class="date sep" text-buffer="|"/>
+  <text id="dash2" class="date sep" text-buffer="-"/>
   
   <text id="mon1" class="date"/>
   <text id="mon2" class="date"/>
@@ -36,6 +36,6 @@
   
   <text id="heart"/>
   <text id="steps" text-buffer="00000"/>
-  <text id="distance" text-buffer="0.00"/>
+  <text id="distance" />
   
 </svg>

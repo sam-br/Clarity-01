@@ -13,10 +13,10 @@
   fill: white;
 }
 
-#h1 { x: 30; y: 180; }
-#h2 { x: 90; y: 180; }
-#m1 { x: 210; y: 180; }
-#m2 { x: 270; y: 180; }
+#h1 { x: 40; y: 180; }
+#h2 { x: 100; y: 180; }
+#m1 { x: 200; y: 180; }
+#m2 { x: 260; y: 180; }
 #timeColon1 { x: 150; y: 170; }
 
 .date {
@@ -28,7 +28,7 @@
 }
 
 .sep {
-  fill: gray;
+  fill: turquoise;
 }
 
 #day1  { x:  15; }
@@ -47,8 +47,8 @@
   font-family: Fabrikat-Bold;
   text-anchor: middle;
   fill: fb-magenta;
-  x: 60;
-  y: 295;
+  x: 90;
+  y: 280;
 }
 
 #steps {
@@ -57,7 +57,7 @@
   text-anchor: middle;
   fill: fb-peach;
   x: 150;
-  y: 60;
+  y: 70;
 }
 
 #distance {
@@ -65,6 +65,6 @@
   font-family: Fabrikat-Bold;
   text-anchor: middle;
   fill: fb-purple;
-  x: 240;
-  y: 295;
+  x: 210;
+  y: 280;
 }
