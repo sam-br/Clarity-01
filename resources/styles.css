@@ -1,0 +1,70 @@
+.background {
+  viewport-fill: black;
+}
+
+.line {
+  fill: black;
+}
+
+.time {
+  font-size: 130;
+  font-family: Fabrikat-Bold;
+  text-anchor: middle;
+  fill: white;
+}
+
+#h1 { x: 30; y: 180; }
+#h2 { x: 90; y: 180; }
+#m1 { x: 210; y: 180; }
+#m2 { x: 270; y: 180; }
+#timeColon1 { x: 150; y: 170; }
+
+.date {
+  font-size: 40;
+  font-family: Fabrikat-Bold;
+  text-anchor: middle;
+  fill: turquoise;
+  y: 220
+}
+
+.sep {
+  fill: gray;
+}
+
+#day1  { x:  15; }
+#day2  { x:  45; }
+#day3  { x:  75; }
+#dash1 { x: 105; }
+#md1   { x: 135; }
+#md2   { x: 165; }
+#dash2 { x: 195; }
+#mon1  { x: 225; }
+#mon2  { x: 255; }
+#mon3  { x: 285; }
+
+#heart {
+  font-size: 60;
+  font-family: Fabrikat-Bold;
+  text-anchor: middle;
+  fill: fb-magenta;
+  x: 60;
+  y: 295;
+}
+
+#steps {
+  font-size: 60;
+  font-family: Fabrikat-Bold;
+  text-anchor: middle;
+  fill: fb-peach;
+  x: 150;
+  y: 60;
+}
+
+#distance {
+  font-size: 60;
+  font-family: Fabrikat-Bold;
+  text-anchor: middle;
+  fill: fb-purple;
+  x: 240;
+  y: 295;
+}

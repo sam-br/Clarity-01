@@ -1,0 +1,41 @@
+<svg class="background">
+ 
+<!-- some guidelines
+
+  <line x1="0" y1="60" x2="300" y2="60" stroke-width="1" class="line"/>
+  <line x1="0" y1="120" x2="300" y2="120" stroke-width="1" class="line"/>
+  <line x1="0" y1="180" x2="300" y2="180" stroke-width="1" class="line"/>
+  <line x1="0" y1="240" x2="300" y2="240" stroke-width="1" class="line"/>
+  <line x1="60" y1="0" x2="60" y2="300" stroke-width="1" class="line" />
+  <line x1="120" y1="0" x2="120" y2="300" stroke-width="1" class="line"/>
+  <line x1="180" y1="0" x2="180" y2="300" stroke-width="1" class="line"/>
+  <line x1="240" y1="0" x2="240" y2="300" stroke-width="1" class="line"/>
+
+-->  
+
+  <text id="h1" class="time"/>
+  <text id="h2" class="time"/>
+  <text id="m1" class="time"/>
+  <text id="m2" class="time"/>
+  <text id="timeColon1" class="time sep">:</text>
+  
+  <text id="day1" class="date"/>
+  <text id="day2" class="date"/>
+  <text id="day3" class="date"/>
+  
+  <text id="dash1" class="date sep" text-buffer="|"/>
+  
+  <text id="md1" class="date"/>
+  <text id="md2" class="date"/>
+  
+  <text id="dash2" class="date sep" text-buffer="|"/>
+  
+  <text id="mon1" class="date"/>
+  <text id="mon2" class="date"/>
+  <text id="mon3" class="date"/>
+  
+  <text id="heart"/>
+  <text id="steps"/>
+  <text id="distance" text-buffer="0.00"/>
+  
+</svg>
